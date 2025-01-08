@@ -1,0 +1,68 @@
+.projects-heading{
+    margin: 15px 10px 15px 10px;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    margin: 15px;
+    padding: 5px;
+    font-size: 28px;
+    font-family: "Roboto";
+    
+}
+.projects-items-container{
+    list-style-type: none;
+    padding-left: 0px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.project-item-card{
+    width: 25%;
+    border: 1px solid rgb(58, 57, 56);
+    border-radius: 5px;     
+    margin: 8px;
+    
+}
+.project-images{
+    width: 100%;
+ border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+.project-name{
+    font-size: 15px;
+    font-family: "Roboto";
+    font-weight: 500;
+    margin: 5px;
+}
+.code-button{
+    background-color: transparent;
+    padding: 10px;
+    margin: 5px 5px 5px 5px;
+    width: 90px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+.visit-link-button{
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+}
+.github-link-button{
+    background-color: rgb(67, 67, 247);
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+    text-decoration: none;
+    border: none;
+}
+
+@media screen and (max-width:451px) {
+    .projects-items-container{
+        display: flex;
+        flex-direction: column;
+    }
+    .project-item-card{
+        width: 70%;
+    }
+}

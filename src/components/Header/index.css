@@ -1,0 +1,109 @@
+.nav-bar{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin: 30px 50px 50px 30px;
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    width: 100%;
+}
+.desktop-menu-items{
+    list-style-type: none;
+    padding-right: 0px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+.mobile-menu-items{
+    list-style-type: none;
+    padding-right: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    display: none;
+}
+.list-item{
+    margin: 0px 10px 0px 10px;
+    font-size: 18px;
+    font-weight: 600;
+    font-family: "Roboto";
+   
+
+}
+.list-item:hover{
+    color: rgb(81, 70, 243);
+    background-color: aliceblue;
+    padding: 8px;
+    border-radius: 5px;
+
+}
+.hamburger-icon{
+    display: none;
+   
+}
+.logo{
+    font-size: 20px;
+    align-self: flex-start;
+    
+}
+.header-item{
+    text-decoration: none;
+    color: black;
+}
+.mob-header-item{
+    color: white;
+    text-decoration: none;
+}
+@media screen and (max-width:451px) {
+    .nav-bar{
+        margin: 0px;
+    }
+    .desktop-menu-items{
+        display: none;
+    }
+    .list-item{
+        margin: 5px 0px 5px 0px;
+        font-size: 18px;
+    }
+    .mobile-menu-items{
+        display: flex;
+        color: white;
+        background-color: black;
+        min-height: 100vh;
+       
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+        width: 70%;
+        margin-left: 10px;
+    }
+    .hamburger-icon{
+        display: flex;
+        background-color: transparent;
+        border: none;
+    
+    }
+    .cancel-button{
+        color: white;
+        align-self: flex-end;
+        margin: 50px 50px 0px 0px;
+        font-size: 25px;
+        z-index: 1000;
+    }
+    .list-item:hover{
+        background-color:lightsalmon;
+        width: 90%;
+        text-align: center;
+        color: white;
+        }
+        .logo{
+            margin: 15px 0px 0px 10px;
+        }
+}

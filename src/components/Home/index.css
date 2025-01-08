@@ -1,0 +1,62 @@
+.Home-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 100px 10px 10px 15px;
+   
+
+}
+.greetings{
+    font-size: 32px;
+    font-weight: 600;
+    color:orangered;
+   font-family:serif;
+    font-style:italic;
+}
+.home-heading{
+    font-size: 32px;
+}
+.home-para{
+    color: rgb(38, 109, 240);
+    font-size: 24px;
+    font-style: oblique;
+    margin-top: 10px;
+}
+.linkedin-button{
+    background-color: transparent;
+    border: none;
+    color: rgb(121, 121, 247);
+    margin: 10px 10px 0px 10px;
+}
+.anchor-linkedin{
+    color: rgb(121, 121, 247);
+}
+.anchor-github{
+    color: black;
+}
+.github-button{
+    color: black;
+    background-color: transparent;
+    border: none;
+    
+    margin: 10px 10px 0px 10px;
+}
+.platform-containers{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.about-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+}
+.contact-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
