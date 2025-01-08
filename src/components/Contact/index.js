@@ -15,7 +15,7 @@ const Contact=()=>{
     </div>
     </div>
     <div className="address-section">
-    <MdEmail size={35}/>
+    <MdEmail size={34}/>
     <div className="user-details-section">
         <p className="name-heading">Email</p>
         <p className="user-name">srikanthyadaram2000@gmail.com</p>
