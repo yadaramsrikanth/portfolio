@@ -25,10 +25,11 @@
    
 }
 .about-para{
-    text-align: center;
+   
     font-size: 16px;
     font-family: "Roboto";
     margin-top: 10px;
+    width: 100%;
 }
 .resume-button{
     background-color: orange;
