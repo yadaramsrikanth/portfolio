@@ -1,6 +1,7 @@
 import React from "react"
 import "./index.css"
-import { DiHtml5, DiCss3,DiJsBadge,DiReact,DiBootstrap,DiPython,DiNodejs,DiDatabase,DiGithubBadge } from "react-icons/di";
+import { DiMongodb,DiHtml5, DiCss3,DiJsBadge,DiReact,DiBootstrap,DiPython,DiNodejs,DiDatabase,DiGithubBadge } from "react-icons/di";
+
 const frontEndTechnologies=[
     {id:1,
     url:<DiHtml5 />,
@@ -34,7 +35,12 @@ const backEndtechnologies=[
     {id:3,
         url:<DiDatabase />,
         text:"SQL"
+    },
+    {id:4,
+    url:<DiMongodb />,
+    text:"MongoDB"
     }
+
 ]
 const Skills=()=>{
     return<><h1 className="skills-heading">Skills</h1>
@@ -47,6 +53,7 @@ const Skills=()=>{
                 {item.text==="Java Script"&&<p style={{color:"orange"}} className="skill-logo">{item.url}</p>}
                 {item.text==="Bootstrap"&&<p style={{color:"violet"}} className="skill-logo">{item.url}</p>}
                 {item.text==="React"&&<p style={{color:"skyblue"}} className="skill-logo">{item.url}</p>}
+                
 
                 <p className="skill-name">{item.text}</p>
             </li>
@@ -59,7 +66,7 @@ const Skills=()=>{
            {item.text==="Python"&&<p style={{color:"black"}} className="skill-logo">{item.url}</p>}
                 {item.text==="Node JS"&&<p style={{ color: 'green' }} className="skill-logo">{item.url}</p>}
                 {item.text==="SQL"&&<p style={{color:"black"}} className="skill-logo">{item.url}</p>}
-                
+                {item.text==="MongoDB"&&<p style={{color:"green"}} className="skill-logo">{item.url}</p>}
 
                 <p className="skill-name">{item.text}</p> 
         </li>
